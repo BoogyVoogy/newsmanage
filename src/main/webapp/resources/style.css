@@ -1,0 +1,88 @@
+ul.css-menu {
+    list-style: none;
+    border-bottom: 1px #888899 solid;
+    padding-bottom: 10px
+}
+
+ul.css-menu li {
+    display: inline;
+    margin-right: 5px
+}
+
+ul.css-menu li a {
+    color: #888899;
+    text-decoration: none;
+    background: #f7f7f9;
+    border: 1px #bbbbcc solid;
+    border-bottom: none;
+    padding: 10px 14px
+}
+
+ul.css-menu li a:hover {
+    padding: 14px 14px 10px 14px
+}
+
+table.data{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+}
+
+.data th{
+    padding:15px;
+    color:#000;
+    text-shadow:1px 1px 1px #bbbbcc;
+    border:1px solid #bbbbcc;
+    border-bottom:3px solid #bbbbcc;
+    background-color:#f7f7f9;
+
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.data td{
+    padding:10px;
+    text-align:center;
+    background-color:#f7f7f9;
+    border: 2px solid #E7EFE0;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+
+.data a{
+    color:#2222ee;
+}
+
+h3 {
+    padding:5px;
+    color:#000;
+    text-shadow:1px 1px 1px #bbbbcc;
+}
+
+input[type="submit"] {
+    background-color:#f7f7f9;
+    padding:5px;
+    border:1px solid #688bb0;
+}
+
+select {
+
+
+    padding: 3px;
+    font-size: 13px;
+    line-height: 1;
+    border:1;
+    border-radius: 1;
+    height: 24px;
+
+}
+
